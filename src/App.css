@@ -7,6 +7,35 @@
   pointer-events: none;
 }
 
+.start {
+  opacity: 0;
+}
+
+.end {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.main-bg {
+    height : 350px;
+    background-image : url('../public/6.png');
+    background-size : cover;
+    background-position : center;
+}
+
+.cart-box {
+  height:200px;
+  position: fixed;
+  right: 0;
+  width: 10%;
+  margin-top:-200px;
+  background-color: black;
+  border:2px solid white;
+  opacity: 0.8;
+  color:white;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
